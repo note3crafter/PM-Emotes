@@ -8,7 +8,7 @@ Its Just for Fun xd
 - /traurig {player} ist Traurig :(
 - /sauer {player} ist Sauer >:c
 - /happy {player} ist Fröhlich :D
-- /gay {player} ist Gay
+- /geil {player} ist Geil 0.o
 - /kevin {player} fragt ob der Kevin Spielen darf
 - /stinken {player} stinkt und geht duschen
 - /burb {player} hat gerülpst Mahlzeit
