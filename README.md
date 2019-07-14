@@ -1,6 +1,8 @@
 # Emotes
 A Emote Plugin for Pocketmine 3.9.0 for Germany :D
 
+Its Just for Fun xd
+
 # Commands
 
 - /traurig {player} ist Traurig :(
