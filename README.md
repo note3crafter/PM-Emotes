@@ -17,6 +17,6 @@ A Emote Plugin for Pocketmine 3.9.0 for Germany :D
 A Plugin From TheNote
 
 Join My Discord here
-<div align="left"
+<div align="center"
 	<a href="https://discord.gg/XwXKuvy">
         <img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg" alt="discord">
