@@ -1,0 +1,113 @@
+name: Emotes by TheNote
+main: TheNote\Emotes\Emotes
+api:
+  - 3.0.0
+  - 4.0.0
+version: 1.0.0
+author: §f[§4The§fNote]
+description: §1Emote §6Pluin von §f[§4The§fNote]
+
+commands:
+  traurig:
+    description: §6Traurig Emote
+    usgae: /traurig
+    permission: emotes.traurig.command
+  sauer:
+    description: §6Sauer Emote
+    usage: /sauer
+    permission: emotes.traurig.command
+  happy:
+    description: §6Happy Emote
+    usage: /happy
+    permission: emotes.traurig.command
+  gay:
+    describtion: §6Gay Emote
+    usage: /gay
+    permission: emotes.gay.command
+  kevin:
+    description: §6Kevin Fragt Emote
+    usage: /kevin
+    permission: emotes.kevin.command
+  stinken:
+    description: §6Stink Emote
+    usage: /stinken
+    permission: emotes.stinken.command
+  rülpsen:
+    description: §6Rülps Emote
+    usage: /burb
+    permission: emotes.rülpsen.command
+  pupsen:
+    description: §6Pups Emote
+    usage: /puspsen
+    permission: emotes.pupsen.command
+  kacken:
+    description: §6Kacken Emote
+    usage: /kacken
+    permission: emotes.kacken.command
+  emotes:
+    description: §6Listet alle Emotes auf
+    usage: /emotes
+    permission: emotes.command
+    
+permissions:
+  emotes.traurig.command:
+    default: true
+    children:
+      emotes.traurig.command:
+        default: true    
+        
+  emotes.sauer.command:
+    default: true
+    children:
+      emotes.traurig.command:
+        default: true
+        
+  emotes.happy.command:
+    default: true
+    children:
+      emotes.traurig.command:
+        default: true
+  emotes.gay.command:
+    default: true
+    children:
+      emotes.gey.command:
+        default: true
+        
+  emotes.kevin.command:
+    default: true
+    children:
+      emotes.kevin.command:
+        default: true
+        
+  emotes.stinken.command:
+    default: true
+    children:
+      emotes.stinken.command:
+        default: true
+        
+  emotes.burb.command:
+    default: true
+    children:
+      emotes.burb.command:
+        default: true
+
+  emotes.pups.command:
+    default: true
+    children:
+      emotes.pups.command:
+        default: true
+
+  emotes.kacken.command:
+    default: true
+    children:
+      emotes.kacken.command:
+        default: true
+
+  emotes.command:
+    default: true
+    children:
+      emotes.command:
+        default: true        
+        
+
+
