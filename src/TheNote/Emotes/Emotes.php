@@ -73,7 +73,7 @@ $this->getServer()->broadcastMessage($args[0]." §aist Fröhlich :D");
                 break;
 				
 			case
-            "gay":
+            "geil":
                 if ($sender->hasPermission("emotes.geil.command")) {
                     if (count($args) < 1) {
                         $this->getServer()->broadcastMessage($sender->getName()." §6ist Geil 0wo");
