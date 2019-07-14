@@ -20,10 +20,10 @@ commands:
     description: §6Happy Emote
     usage: /happy
     permission: emotes.traurig.command
-  gay:
-    describtion: §6Gay Emote
-    usage: /gay
-    permission: emotes.gay.command
+  geil:
+    describtion: §6Geil Emote
+    usage: /geil
+    permission: emotes.geil.command
   kevin:
     description: §6Kevin Fragt Emote
     usage: /kevin
@@ -67,10 +67,10 @@ permissions:
     children:
       emotes.traurig.command:
         default: true
-  emotes.gay.command:
+  emotes.geil.command:
     default: true
     children:
-      emotes.gey.command:
+      emotes.geil.command:
         default: true
         
   emotes.kevin.command:
