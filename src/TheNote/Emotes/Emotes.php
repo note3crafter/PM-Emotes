@@ -37,7 +37,7 @@ class Emotes extends PluginBase
             "traurig":
                 if ($sender->hasPermission("emotes.traurig.command")) {
                     if (count($args) < 1) {
-                        $this->getServer()->broadcastMessage($sender->getName()." §1ist Traurig :(");
+                        $this->getServer()->broadcastMessage($sender->getName()." §1ist Traurig :´(");
                     }else{
 $this->getServer()->broadcastMessage($args[0]." §1ist Traurig :(");
 }
@@ -50,9 +50,9 @@ $this->getServer()->broadcastMessage($args[0]." §1ist Traurig :(");
             "sauer":
                 if ($sender->hasPermission("emotes.sauer.command")) {
                     if (count($args) < 1) {
-                        $this->getServer()->broadcastMessage($sender->getName()." §eist sauer");
+                        $this->getServer()->broadcastMessage($sender->getName()." §eist sauer>:(");
                     }else{
-$this->getServer()->broadcastMessage($args[0]." §eist sauer");
+$this->getServer()->broadcastMessage($args[0]." §eist sauer >:(");
 }
                 } else {
                     $sender->sendMessage($nocmd);
@@ -74,11 +74,11 @@ $this->getServer()->broadcastMessage($args[0]." §aist Fröhlich :D");
 				
 			case
             "gay":
-                if ($sender->hasPermission("emotes.gay.command")) {
+                if ($sender->hasPermission("emotes.geil.command")) {
                     if (count($args) < 1) {
-                        $this->getServer()->broadcastMessage($sender->getName()." §6ist Gay");
+                        $this->getServer()->broadcastMessage($sender->getName()." §6ist Geil 0wo");
                     }else{
-$this->getServer()->broadcastMessage($args[0]." §6ist Gay");
+$this->getServer()->broadcastMessage($args[0]." §6ist Geil Owo");
 }
                 } else {
                     $sender->sendMessage($nocmd);
@@ -158,7 +158,7 @@ $this->getServer()->broadcastMessage($args[0]." §3geht das Klo vergasen wenn er
 /traurig
 /sauer
 /happy
-/gay
+/geil
 /kevin
 /stinken
 /rülpsen
