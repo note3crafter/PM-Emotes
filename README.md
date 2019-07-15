@@ -1,19 +1,19 @@
 # Emotes
-A Emote Plugin for Pocketmine 3.9.0 for Germany :D
+A Emote Plugin for Pocketmine 3.9.0 
 
 Its Just for Fun xd
 
 # Commands
 
-- /traurig {player} ist Traurig :(
-- /sauer {player} ist Sauer >:c
-- /happy {player} ist Fröhlich :D
-- /geil {player} ist Geil 0.o
-- /kevin {player} fragt ob der Kevin Spielen darf
-- /stinken {player} stinkt und geht duschen
-- /burb {player} hat gerülpst Mahlzeit
-- /pupsen {player} hat gefurtzt und es kam Land mit xD
-- /kacken {player} geht das Klo vergasen wenn er sein würstschen legt
+- /sad {player} is Sad :(
+- /angry {player} is Angry >:c
+- /happy {player} is Happy :D
+- /geil {player} is Geil 0.o
+- /kevin {player} asks if the Kevin is allowed to play?
+- /stink {player} Stinks and goes showers now!
+- /burb {player} has burped O_O
+- /fart {player} has puped and Land came with xD
+- /toilet {player} goes to the Toilet.
 - /emotes list all commands
 
 A Plugin From TheNote
