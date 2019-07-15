@@ -1,4 +1,4 @@
-name: Emotes by TheNote
+name: Emotes
 main: TheNote\Emotes\Emotes
 api:
   - 3.0.0
@@ -8,64 +8,64 @@ author: §f[§4The§fNote]
 description: §1Emote §6Pluin von §f[§4The§fNote]
 
 commands:
-  traurig:
-    description: §6Traurig Emote
-    usgae: /traurig
-    permission: emotes.traurig.command
-  sauer:
-    description: §6Sauer Emote
-    usage: /sauer
-    permission: emotes.traurig.command
+  sad:
+    description: §6Sad Emote
+    usgae: /sad
+    permission: emotes.sad.command
+  angry:
+    description: §6Angry Emote
+    usage: /angry
+    permission: emotes.angry.command
   happy:
     description: §6Happy Emote
     usage: /happy
-    permission: emotes.traurig.command
+    permission: emotes.happy.command
   geil:
     describtion: §6Geil Emote
     usage: /geil
     permission: emotes.geil.command
   kevin:
-    description: §6Kevin Fragt Emote
+    description: §6Kevin Emote
     usage: /kevin
     permission: emotes.kevin.command
-  stinken:
+  stink:
     description: §6Stink Emote
-    usage: /stinken
-    permission: emotes.stinken.command
-  rülpsen:
-    description: §6Rülps Emote
+    usage: /stink
+    permission: emotes.stink.command
+  burb:
+    description: §6Burb Emote
     usage: /burb
-    permission: emotes.rülpsen.command
-  pupsen:
-    description: §6Pups Emote
-    usage: /puspsen
-    permission: emotes.pupsen.command
-  kacken:
-    description: §6Kacken Emote
-    usage: /kacken
-    permission: emotes.kacken.command
+    permission: emotes.burb.command
+  fart:
+    description: §6Fart Emote
+    usage: /fart
+    permission: emotes.fart.command
+  toilet:
+    description: §6Toilet Emote
+    usage: /toilet
+    permission: emotes.toilet.command
   emotes:
-    description: §6Listet alle Emotes auf
+    description: §6List all Emotes
     usage: /emotes
     permission: emotes.command
     
 permissions:
-  emotes.traurig.command:
+  emotes.sad.command:
     default: true
     children:
-      emotes.traurig.command:
+      emotes.sad.command:
         default: true    
         
-  emotes.sauer.command:
+  emotes.angry.command:
     default: true
     children:
-      emotes.traurig.command:
+      emotes.angry.command:
         default: true
         
   emotes.happy.command:
     default: true
     children:
-      emotes.traurig.command:
+      emotes.happy.command:
         default: true
   emotes.geil.command:
     default: true
@@ -79,10 +79,10 @@ permissions:
       emotes.kevin.command:
         default: true
         
-  emotes.stinken.command:
+  emotes.stink.command:
     default: true
     children:
-      emotes.stinken.command:
+      emotes.stink.command:
         default: true
         
   emotes.burb.command:
@@ -91,16 +91,16 @@ permissions:
       emotes.burb.command:
         default: true
 
-  emotes.pups.command:
+  emotes.fart.command:
     default: true
     children:
-      emotes.pups.command:
+      emotes.fart.command:
         default: true
 
-  emotes.kacken.command:
+  emotes.toilet.command:
     default: true
     children:
-      emotes.kacken.command:
+      emotes.toilet.command:
         default: true
 
   emotes.command:
@@ -109,5 +109,3 @@ permissions:
       emotes.command:
         default: true        
         
-
-
