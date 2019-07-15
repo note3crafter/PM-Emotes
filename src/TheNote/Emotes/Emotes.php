@@ -144,9 +144,9 @@ $this->getServer()->broadcastMessage($args[0]." §bhas burped O_O");
             "fart":
                 if ($sender->hasPermission("emotes.fart.command")) {
                     if (count($args) < 1) {
-                        $this->getServer()->broadcastMessage($sender->getName()." §ehas puped and land came with xD");
+                        $this->getServer()->broadcastMessage($sender->getName()." §ehas puped and Land came with xD");
                     }else{
-$this->getServer()->broadcastMessage($args[0]." §ehas puped and land came with xD");
+$this->getServer()->broadcastMessage($args[0]." §ehas puped and Land came with xD");
 }
                 } else {
                     $sender->sendMessage($nocmd);
@@ -157,9 +157,9 @@ $this->getServer()->broadcastMessage($args[0]." §ehas puped and land came with 
             "toilet":
                 if ($sender->hasPermission("emotes.toilet.command")) {
                     if (count($args) < 1) {
-                        $this->getServer()->broadcastMessage($sender->getName()." §3goes to the toilet.");
+                        $this->getServer()->broadcastMessage($sender->getName()." §3goes to the Toilet.");
                     }else{
-$this->getServer()->broadcastMessage($args[0]." §3goes to the toilet.");
+$this->getServer()->broadcastMessage($args[0]." §3goes to the Toilet.");
 }
                 } else {
                     $sender->sendMessage($nocmd);
