@@ -14,6 +14,7 @@ Its Just for Fun xd
 - /burb {player} has burped O_O
 - /fart {player} has puped and Land came with xD
 - /toilet {player} goes to the Toilet.
+- /sleepy {player} is very sleepy
 - /emotes list all commands
 
 A Plugin From TheNote
