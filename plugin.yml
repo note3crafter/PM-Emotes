@@ -44,6 +44,10 @@ commands:
     description: §6Toilet Emote
     usage: /toilet
     permission: emotes.toilet.command
+  sleepy:
+    description: §6Sleepy Emote
+    usage: /sleepy
+    permission: emotes.sleepy.command  
   emotes:
     description: §6List all Emotes
     usage: /emotes
@@ -102,7 +106,13 @@ permissions:
     children:
       emotes.toilet.command:
         default: true
-
+        
+  emotes.sleepy.command:
+    default: true
+    children:
+      emotes.sleepy.command:
+        default: true
+        
   emotes.command:
     default: true
     children:
