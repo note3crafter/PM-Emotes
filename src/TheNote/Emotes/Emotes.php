@@ -42,6 +42,7 @@ class Emotes extends PluginBase
 /burb
 /fart
 /toilet
+/sleepy
 §6===§f[§cEmotes§f]§6===");
                     }
                 } else {
@@ -165,6 +166,19 @@ $this->getServer()->broadcastMessage($args[0]." §3goes to the toilet.");
                     $sender->sendMessage($nocmd);
                 }
                 break;
+
+            case
+            "sleepy":
+                if ($sender->hasPermission("emotes.sleepy.command")) {
+                    if (count($args) < 1) {
+                        $this->getServer()->broadcastMessage("§b" . $sender->getName()." §bis very sleepy.");
+                    }else{
+$this->getServer()->broadcastMessage($args[0]." §bis very sleepy.");
+}
+                } else {
+                    $sender->sendMessage($nocmd);
+                }
+                break;			
 				}
 		return true;
 	}
