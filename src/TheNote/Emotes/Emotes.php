@@ -53,7 +53,7 @@ class Emotes extends PluginBase
             "sad":
                 if ($sender->hasPermission("emotes.sad.command")) {
                     if (count($args) < 1) {
-                        $this->getServer()->broadcastMessage($sender->getName()." §1is Sad :(");
+                        $this->getServer()->broadcastMessage("§1" . $sender->getName()." §1is Sad :(");
                     }else{
 $this->getServer()->broadcastMessage($args[0]." §1is Sad :(");
 }
@@ -66,7 +66,7 @@ $this->getServer()->broadcastMessage($args[0]." §1is Sad :(");
             "angry":
                 if ($sender->hasPermission("emotes.angry.command")) {
                     if (count($args) < 1) {
-                        $this->getServer()->broadcastMessage($sender->getName()." §cis Angry >:(");
+                        $this->getServer()->broadcastMessage("§c" . $sender->getName()." §cis Angry >:(");
                     }else{
 $this->getServer()->broadcastMessage($args[0]." §cis Angry >:");
 }
@@ -79,7 +79,7 @@ $this->getServer()->broadcastMessage($args[0]." §cis Angry >:");
             "happy":
                 if ($sender->hasPermission("emotes.happy.command")) {
                     if (count($args) < 1) {
-                        $this->getServer()->broadcastMessage($sender->getName()." §ais is Happy :D");
+                        $this->getServer()->broadcastMessage("§a" . $sender->getName()." §ais is Happy :D");
                     }else{
 $this->getServer()->broadcastMessage($args[0]." §ais Happy :D");
 }
@@ -92,7 +92,7 @@ $this->getServer()->broadcastMessage($args[0]." §ais Happy :D");
             "geil":
                 if ($sender->hasPermission("emotes.geil.command")) {
                     if (count($args) < 1) {
-                        $this->getServer()->broadcastMessage($sender->getName()." §6is Geil O.o");
+                        $this->getServer()->broadcastMessage("§6" . $sender->getName()." §6is Geil O_o");
                     }else{
 $this->getServer()->broadcastMessage($args[0]." §6is Geil O.o");
 }
@@ -105,7 +105,7 @@ $this->getServer()->broadcastMessage($args[0]." §6is Geil O.o");
             "kevin":
                 if ($sender->hasPermission("emotes.kevin.command")) {
                     if (count($args) < 1) {
-                        $this->getServer()->broadcastMessage($sender->getName()." §dasks if the Kevin is allowed to play?");
+                        $this->getServer()->broadcastMessage("§d" . $sender->getName()." §dasks if the Kevin is allowed to play?");
                     }else{
 $this->getServer()->broadcastMessage($args[0]." §dasks if the Kevin is allowed to play?");
 }
@@ -118,7 +118,7 @@ $this->getServer()->broadcastMessage($args[0]." §dasks if the Kevin is allowed 
             "stink":
                 if ($sender->hasPermission("emotes.stink.command")) {
                     if (count($args) < 1) {
-                        $this->getServer()->broadcastMessage($sender->getName()." §2Stinks and goes showers now!");
+                        $this->getServer()->broadcastMessage("§2" . $sender->getName()." §2Stinks and goes showers now!");
                     }else{
 $this->getServer()->broadcastMessage($args[0]." §2Stinks and goes showers now!");
 }
@@ -131,7 +131,7 @@ $this->getServer()->broadcastMessage($args[0]." §2Stinks and goes showers now!"
             "burb":
                 if ($sender->hasPermission("emotes.burb.command")) {
                     if (count($args) < 1) {
-                        $this->getServer()->broadcastMessage($sender->getName()." §bhas burped O_O");
+                        $this->getServer()->broadcastMessage("§b" . $sender->getName()." §bhas burped O_O");
                     }else{
 $this->getServer()->broadcastMessage($args[0]." §bhas burped O_O");
 }
@@ -144,9 +144,9 @@ $this->getServer()->broadcastMessage($args[0]." §bhas burped O_O");
             "fart":
                 if ($sender->hasPermission("emotes.fart.command")) {
                     if (count($args) < 1) {
-                        $this->getServer()->broadcastMessage($sender->getName()." §ehas puped and Land came with xD");
+                        $this->getServer()->broadcastMessage("§e" . $sender->getName()." §ehas puped and land came with xD");
                     }else{
-$this->getServer()->broadcastMessage($args[0]." §ehas puped and Land came with xD");
+$this->getServer()->broadcastMessage($args[0]." §ehas puped and land came with xD");
 }
                 } else {
                     $sender->sendMessage($nocmd);
@@ -157,9 +157,9 @@ $this->getServer()->broadcastMessage($args[0]." §ehas puped and Land came with 
             "toilet":
                 if ($sender->hasPermission("emotes.toilet.command")) {
                     if (count($args) < 1) {
-                        $this->getServer()->broadcastMessage($sender->getName()." §3goes to the Toilet.");
+                        $this->getServer()->broadcastMessage("§3" . $sender->getName()." §3goes to the toilet.");
                     }else{
-$this->getServer()->broadcastMessage($args[0]." §3goes to the Toilet.");
+$this->getServer()->broadcastMessage($args[0]." §3goes to the toilet.");
 }
                 } else {
                     $sender->sendMessage($nocmd);
