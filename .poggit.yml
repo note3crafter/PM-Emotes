@@ -1,0 +1,9 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/note3crafter/PM-Emotes
+branches:
+- master
+projects:
+  PM-Emotes:
+    path: ""
+    icon: "emotes.png"
+
+...
