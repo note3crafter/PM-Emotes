@@ -4,5 +4,5 @@ branches:
 projects:
   PM-Emotes:
     path: ""
-    icon: "emotes.png"
+    icon: "icon.png"
 ...
