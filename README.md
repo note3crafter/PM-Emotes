@@ -1,7 +1,7 @@
 # Emotes
-A Emote Plugin for Pocketmine 3.9.0 
+A Emote Plugin for Pocketmine 3.9.X
 
-Its Just for Fun xd
+The Plugin make a Emote per Command! 
 
 # Commands
 
