@@ -17,9 +17,11 @@ Its Just for Fun xd
 - /sleepy {player} is very sleepy
 - /emotes list all commands
 
-A Plugin From TheNote
+# Discord and Help
 
-Join My Discord here
+Make a issue on GitHub for Errors
+
+My Discord:
 <div align="left">
 	<a href="https://discord.gg/XwXKuvy">
         <img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg" alt="discord">
