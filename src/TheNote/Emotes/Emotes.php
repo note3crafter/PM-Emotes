@@ -11,9 +11,7 @@ use pocketmine\utils\TextFormat;
 
 class Emotes extends PluginBase
 {
-    public function onEnable()
-	
-	public static function getInstance() : self
+   public static function getInstance() : self
 	{
 	return self::$instance;
 	}
