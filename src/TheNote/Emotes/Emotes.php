@@ -49,7 +49,7 @@ class Emotes extends PluginBase
             break;
 
             case
-            "angry"
+            "angry":
                 if (count($args) < 1) {
                 $this->getServer()->broadcastMessage("§c" . $sender->getName()." §cis Angry >:(");
                 }
