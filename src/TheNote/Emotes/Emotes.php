@@ -114,4 +114,3 @@ class Emotes extends PluginBase
 	return true;
     }
 }
-
