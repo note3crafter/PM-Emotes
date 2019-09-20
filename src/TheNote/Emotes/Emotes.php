@@ -7,7 +7,7 @@ namespace TheNote\Emotes;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
-use pocketmine\utils\TextFormat:
+use pocketmine\utils\TextFormat;
 
 class Emotes extends PluginBase
 {
@@ -40,7 +40,7 @@ class Emotes extends PluginBase
                 }
             break;				
 				
-	        case
+	    case
             "sad":
                 if (count($args) < 1) {
                 $this->getServer()->broadcastMessage("§1" . $sender->getName()." §1is Sad :(");
