@@ -11,111 +11,33 @@ commands:
   sad:
     description: §6Sad Emote
     usgae: /sad
-    permission: emotes.sad.command
   angry:
     description: §6Angry Emote
     usage: /angry
-    permission: emotes.angry.command
   happy:
     description: §6Happy Emote
     usage: /happy
-    permission: emotes.happy.command
   geil:
     describtion: §6Geil Emote
     usage: /geil
-    permission: emotes.geil.command
   kevin:
     description: §6Kevin Emote
     usage: /kevin
-    permission: emotes.kevin.command
   stink:
     description: §6Stink Emote
     usage: /stink
-    permission: emotes.stink.command
   burb:
     description: §6Burb Emote
     usage: /burb
-    permission: emotes.burb.command
   fart:
     description: §6Fart Emote
     usage: /fart
-    permission: emotes.fart.command
   toilet:
     description: §6Toilet Emote
     usage: /toilet
-    permission: emotes.toilet.command
   sleepy:
     description: §6Sleepy Emote
-    usage: /sleepy
-    permission: emotes.sleepy.command  
+    usage: /sleepy 
   emotes:
     description: §6List all Emotes
     usage: /emotes
-    permission: emotes.command
-    
-permissions:
-  emotes.sad.command:
-    default: true
-    children:
-      emotes.sad.command:
-        default: true    
-        
-  emotes.angry.command:
-    default: true
-    children:
-      emotes.angry.command:
-        default: true
-        
-  emotes.happy.command:
-    default: true
-    children:
-      emotes.happy.command:
-        default: true
-  emotes.geil.command:
-    default: true
-    children:
-      emotes.geil.command:
-        default: true
-        
-  emotes.kevin.command:
-    default: true
-    children:
-      emotes.kevin.command:
-        default: true
-        
-  emotes.stink.command:
-    default: true
-    children:
-      emotes.stink.command:
-        default: true
-        
-  emotes.burb.command:
-    default: true
-    children:
-      emotes.burb.command:
-        default: true
-
-  emotes.fart.command:
-    default: true
-    children:
-      emotes.fart.command:
-        default: true
-
-  emotes.toilet.command:
-    default: true
-    children:
-      emotes.toilet.command:
-        default: true
-        
-  emotes.sleepy.command:
-    default: true
-    children:
-      emotes.sleepy.command:
-        default: true
-        
-  emotes.command:
-    default: true
-    children:
-      emotes.command:
-        default: true        
-        
