@@ -9,10 +9,10 @@ commands:
   sad:
     description: §6Sad Emote
     permission: sad.use
-    usgae: /sad
+    usage: /sad
   angry:
     description: §6Angry Emote
-    angry.use
+    permission: angry.use
     usage: /angry
   happy:
     description: §6Happy Emote
