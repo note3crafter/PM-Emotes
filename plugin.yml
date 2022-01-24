@@ -1,8 +1,6 @@
 name: Emotes
 main: TheNote\Emotes\Emotes
-api:
-  - 3.0.0
-  - 4.0.0
+api: 4.0.0
 version: 1.0.0
 author: §f[§4The§fNote]
 description: §1Emote §6Pluin von §f[§4The§fNote]
@@ -10,34 +8,71 @@ description: §1Emote §6Pluin von §f[§4The§fNote]
 commands:
   sad:
     description: §6Sad Emote
+    permission: sad.use
     usgae: /sad
   angry:
     description: §6Angry Emote
+    angry.use
     usage: /angry
   happy:
     description: §6Happy Emote
+    permission: happy.use
     usage: /happy
   geil:
     describtion: §6Geil Emote
+    permission: geil.use 
     usage: /geil
   kevin:
     description: §6Kevin Emote
+    permission: kevin.use
     usage: /kevin
   stink:
     description: §6Stink Emote
+    permission: stink.use
     usage: /stink
   burb:
     description: §6Burb Emote
+    permission: burb.use
     usage: /burb
   fart:
     description: §6Fart Emote
+    permission: fart.use
     usage: /fart
   toilet:
     description: §6Toilet Emote
+    permission: toilet.use
     usage: /toilet
   sleepy:
     description: §6Sleepy Emote
+    permission: sleepy.use
     usage: /sleepy 
   emotes:
     description: §6List all Emotes
+    permission: emotes.use
     usage: /emotes
+
+permissions:
+  happy.use:
+    default: true
+  geil.use:
+    default: true
+  sad.use:
+    default: true
+  angry.use:
+    default: true
+  betrunken.use:
+    default: true
+  emotes.use:
+    default: true
+  toilet.use:
+    default: true
+  stink.use:
+    default: true
+  sleepy.use
+    default: true
+  kevin.use
+    default: true
+  fart.use
+    default: true
+  burb.use
+    default: true
