@@ -68,11 +68,11 @@ permissions:
     default: true
   stink.use:
     default: true
-  sleepy.use
+  sleepy.use:
     default: true
-  kevin.use
+  kevin.use:
     default: true
-  fart.use
+  fart.use:
     default: true
-  burb.use
+  burb.use:
     default: true
