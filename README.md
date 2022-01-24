@@ -1,5 +1,5 @@
 # Emotes
-An emote plugin for Pocketmine 3.9.X
+An emote plugin for Pocketmine 4.0.0
 
 This plugin adds emotes (via command) to the game! 
 
